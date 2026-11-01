@@ -1,0 +1,281 @@
+{
+  "salmon": {
+    "file": "artwork/creatures/salmon.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian salmon Arripis trutta, streamlined body, large forked tail, single spiny and soft dorsal, small dark upper flank spots",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "bream": {
+    "file": "artwork/creatures/bream.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "yellowfin bream Acanthopagrus australis, deep compressed body, arched back, continuous spiny dorsal fin, forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "flathead": {
+    "file": "artwork/creatures/flathead.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "dusky flathead Platycephalus fuscus, very broad flattened head, eyes high on head, tapering body, two separate dorsal fins, rounded tail with dark lower spot",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "groper": {
+    "file": "artwork/creatures/groper.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "eastern blue groper Achoerodus viridis, deep chunky wrasse, thick fleshy lips, rounded tail, continuous dorsal fin",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "luderick": {
+    "file": "artwork/creatures/luderick.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "luderick Girella tricuspidata, deep oval body with clear vertical dark bars, small mouth, forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "mulloway": {
+    "file": "artwork/creatures/mulloway.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "mulloway Argyrosomus japonicus, elongated robust body, convex rounded tail, lateral line, small dark spot near pectoral base",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "whiting": {
+    "file": "artwork/creatures/whiting.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "sand whiting Sillago ciliata, slender elongated body, pointed snout, small downturned mouth, two dorsal fins, forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "trevally": {
+    "file": "artwork/creatures/trevally.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "silver trevally Pseudocaranx georgianus, deep oval compressed body, sharply forked tail, long curved pectoral fin, dark operculum spot",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "snapper": {
+    "file": "artwork/creatures/snapper.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australasian snapper Chrysophrys auratus, deep body, gently sloped forehead, small blue spots rendered black, continuous spiny dorsal fin, forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "tailor": {
+    "file": "artwork/creatures/tailor.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "tailor Pomatomus saltatrix, streamlined deep body, strong jaw with sharp teeth, two dorsal fins, forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "tarwhine": {
+    "file": "artwork/creatures/tarwhine.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "tarwhine Rhabdosargus sarba, deep compressed bream-shaped body, rounded forehead, prominent horizontal scale rows, forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "kingfish": {
+    "file": "artwork/creatures/kingfish.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "yellowtail kingfish Seriola lalandi, long torpedo body, long second dorsal and anal fins, narrow peduncle, deeply forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "perch": {
+    "file": "artwork/creatures/perch.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "golden perch Macquaria ambigua, deep stout body, large mouth, arched back, rounded tail, continuous dorsal fin",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "longfin": {
+    "file": "artwork/creatures/longfin.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian longfin eel Anguilla reinhardtii, long serpentine mottled body, dorsal starts well ahead of anal origin, small pectoral fins, dorsal tail anal continuous",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "cod": {
+    "file": "artwork/creatures/cod.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Murray cod Maccullochella peelii, very large broad mouth, mottled stocky body, rounded tail, continuous spiny-soft dorsal fin",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "shortfin": {
+    "file": "artwork/creatures/shortfin.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "southern shortfin eel Anguilla australis, long serpentine plain body, dorsal starts near anal origin, small pectoral fins, dorsal tail anal continuous",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "catfish": {
+    "file": "artwork/creatures/catfish.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian eel-tailed catfish Tandanus tandanus; broad head, barbels, continuous eel-like tail fin, sharp dorsal and pectoral spines",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "carp": {
+    "file": "artwork/creatures/carp.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "common European carp Cyprinus carpio, deep stout scaled body, two pairs of short barbels near downturned fleshy mouth, very long dorsal fin with serrated leading ray, forked tail",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "bonybream": {
+    "file": "artwork/creatures/bonybream.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian bony bream Nematalosa erebi, deep laterally compressed herring-shaped body, small downturned mouth, single short dorsal with a long trailing filament from last ray, forked tail, no barbels",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "barramundi": {
+    "file": "artwork/creatures/barramundi.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian barramundi Lates calcarifer, robust elongated body, huge oblique mouth with lower jaw projecting, two-part notched dorsal fin, large scales, rounded caudal tail, no barbels",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "bass": {
+    "file": "artwork/creatures/bass.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian bass Macquaria novemaculeata, compressed oval body, moderately large mouth, continuous notched spiny-soft dorsal, forked tail, plain flanks, no barbels, not American largemouth bass",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "rainbow": {
+    "file": "artwork/creatures/rainbow.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "rainbow trout Oncorhynchus mykiss, streamlined trout body, small adipose fin between dorsal and tail, many small dark spots on back and caudal fin, shallow fork tail, broad lateral band rendered sparse black hatching",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "browntrout": {
+    "file": "artwork/creatures/browntrout.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "brown trout Salmo trutta, streamlined trout body, small adipose fin, large scattered round black flank spots some haloed, mostly plain square tail slightly indented, not rainbow trout",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "silverperch": {
+    "file": "artwork/creatures/silverperch.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian silver perch Bidyanus bidyanus, deep oval compressed body with small mouth and small head, regular large scales, continuous spiny-soft dorsal, forked tail, no whiskers or vertical bars",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "redfin": {
+    "file": "artwork/creatures/redfin.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "European redfin perch Perca fluviatilis, deep body, five to seven prominent dark vertical bars on flank, two clearly separated dorsal fins the first spiny with dark rear spot, forked caudal fin",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "estuaryperch": {
+    "file": "artwork/creatures/estuaryperch.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Australian estuary perch Macquaria colonorum, deep laterally compressed body, slightly concave forehead over a large upturned mouth, continuous notched dorsal, slightly forked tail, no barbels or vertical bars",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "yabby": {
+    "file": "artwork/creatures/yabby.png",
+    "creator": "Owner-directed OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Common freshwater yabby, Cherax destructor",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-hooks": {
+    "file": "artwork/diagrams/hooks.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-floats": {
+    "file": "artwork/diagrams/floats.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-sinkers": {
+    "file": "artwork/diagrams/sinkers.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-swivels": {
+    "file": "artwork/diagrams/swivels.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-running": {
+    "file": "artwork/diagrams/running.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-float-rig": {
+    "file": "artwork/diagrams/float-rig.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-paternoster": {
+    "file": "artwork/diagrams/paternoster.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-bait-landing": {
+    "file": "artwork/diagrams/bait-landing.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "diagram-tides": {
+    "file": "artwork/diagrams/tides.png",
+    "creator": "Original owner project",
+    "kind": "code-authored schematic",
+    "license": "CC-BY-4.0",
+    "credit": "Fishing catalogue by Amy Zhou"
+  }
+}
