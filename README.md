@@ -16,3 +16,7 @@ python scripts/check.py
 The exporter writes reference notes and images under `Hobbies/Fishing/`; it preserves generated-note frontmatter and refuses to overwrite handwritten Species/Rigs notes. It does not read, import or export personal catch records. Device installation and Xteink export are separate operations.
 
 This public repository has no personal catches, fishing locations, private vault notes, credentials or device backups. It is a versioned reference catalogue, not a live catch-sharing service.
+
+## Before committing or pushing
+
+Run `python scripts/install_hooks.py` in each clone. Staged-tree and outgoing-history audits block unexpected files, private catch/location fields and likely secrets. See [publishing checks](SECURITY.md).

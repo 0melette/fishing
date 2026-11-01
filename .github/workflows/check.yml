@@ -11,3 +11,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/check.py
+      - run: python scripts/audit_public.py --tree HEAD
+      - run: python scripts/test_audit.py
