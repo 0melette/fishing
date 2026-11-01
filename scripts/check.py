@@ -16,3 +16,15 @@ for p in root.rglob('*'):
  s=p.read_text();assert ('/'+'Users/') not in s and ('/dev/'+'cu.') not in s,'Local machine path: '+str(p)
 for key in ['catches','catch_logs','locations','credentials','tokens','device_state']:assert key not in data
 print('PASS: 27 species, 9 tackle topics, 36 illustrations; public catalogue/artwork checks')
+
+# Export only reference content; private catch data is not an input or output.
+import tempfile,subprocess,sys
+with tempfile.TemporaryDirectory() as folder:
+ vault=Path(folder);private=vault/'private-catches.json';private.write_text('{"test":"leave unchanged"}')
+ subprocess.run([sys.executable,str(root/'scripts/export_obsidian.py'),'--vault',str(vault)],check=True)
+ assert private.read_text()=='{"test":"leave unchanged"}'
+ assert len(list((vault/'Hobbies/Fishing/Species').glob('*.md')))==27
+ assert len(list((vault/'Hobbies/Fishing/Assets').glob('*.png')))==27
+ assert '1 Nov 2026' in (vault/'Hobbies/Fishing/Species/Freshwater yabby.md').read_text()
+ assert '10 Oct 2026' in (vault/'Hobbies/Fishing/Species/Dusky flathead.md').read_text()
+print('PASS: fresh-vault export, entry review dates and private-catch sentinel unchanged')

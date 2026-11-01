@@ -61,5 +61,6 @@ for f in data['species']:
     write('Species', f['name'], body, checked)
 for t in data['topics']:
     write('Rigs', t['title'], f"{t['caption']}\n\n## {t['leftTitle']}\n\n{t['left']}\n\n## {t['rightTitle']}\n\n{t['right']}", data['checked'])
+(root/'Data').mkdir(parents=True,exist_ok=True)
 (root/'Data/mooncake-fishing.json').write_text(json.dumps({'provenance': {'imported_from': str(a.source), 'sha256': hashlib.sha256(raw.encode()).hexdigest(), 'rules_checked': data['checked'], 'direction': 'Reviewed catalogue to Obsidian; per-entry dates retained; no device upload'}, 'guide': data}, indent=2)+'\n')
 print(f"Imported {len(data['species'])} species and {len(data['topics'])} tackle topics; per-entry rule dates retained")
