@@ -9,3 +9,9 @@
 LilyGO creature packing is monochrome at up to 128×76; diagrams allow 140×76. Gradients and thin strokes may disappear. Keep source art and inspect the native-size result.
 
 Personal catches and locations belong in private stores outside this repository. Xteink export and invertebrate count/measurement controls remain separate implementation work.
+
+## Detailed tackle notes
+
+Keep short device summaries in the existing topic fields. `note_sections` holds longer reference explanations; `note_assets` lists companion files from `artwork/diagrams/` for the Obsidian exporter. Species `rig_links` connects a phrase to an existing topic heading. Escape image-size and alias pipes in Markdown table cells.
+
+Sinker rows pair CC0 real-tackle photographs with separate 140×76 monochrome schematics. Photo PNGs show selected views of the source photographs; their credits and reuse terms stay with each file. Credits and source links are in `artwork/sources.json` and the exported note. Native JSON companions use the LilyGO `w`, `h`, `pixels` format with row-padded, most-significant-bit-first black pixels. These assets are prepared for device integration; adding them does not install or select them in an app.

@@ -24,7 +24,12 @@ with tempfile.TemporaryDirectory() as folder:
  subprocess.run([sys.executable,str(root/'scripts/export_obsidian.py'),'--vault',str(vault)],check=True)
  assert private.read_text()=='{"test":"leave unchanged"}'
  assert len(list((vault/'Hobbies/Fishing/Species').glob('*.md')))==27
- assert len(list((vault/'Hobbies/Fishing/Assets').glob('*.png')))==27
+ expected_pngs = {f['image']+'.png' for f in data['species']}
+ expected_pngs.update(name for t in data['topics'] for name in t.get('note_assets', []) if name.endswith('.png'))
+ assert {p.name for p in (vault/'Hobbies/Fishing/Assets').glob('*.png')} == expected_pngs
+ for t in data['topics']:
+  for name in t.get('note_assets', []):
+   assert (vault/'Hobbies/Fishing/Assets'/name).read_bytes() == (root/'artwork/diagrams'/name).read_bytes()
  assert '1 Nov 2026' in (vault/'Hobbies/Fishing/Species/Freshwater yabby.md').read_text()
  assert '10 Oct 2026' in (vault/'Hobbies/Fishing/Species/Dusky flathead.md').read_text()
 print('PASS: fresh-vault export, entry review dates and private-catch sentinel unchanged')

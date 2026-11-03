@@ -26,4 +26,16 @@ class AuditTests(unittest.TestCase):
  def test_deleted_leak_in_outgoing_history_blocked(self):
   (self.repo/'personal-note.md').write_text('Synthetic unrelated note.');self.git('add','.');self.git('commit','-m','Bad fixture');(self.repo/'personal-note.md').unlink();self.git('add','-A');self.git('commit','-m','Remove fixture');sha=self.git('rev-parse','HEAD');self.assertEqual(self.audit('--tree','HEAD').returncode,0)
   r=self.audit('--pre-push',input='refs/heads/main '+sha+' refs/heads/main '+'0'*40+'\n');self.assertNotEqual(r.returncode,0);self.assertIn('personal-note.md',r.stderr)
+ def test_note_asset_path_traversal_blocked(self):
+  p=self.repo/'catalogue.json';d=json.loads(p.read_text());d['topics'][0]['note_assets']=['../private.svg'];p.write_text(json.dumps(d));self.git('add','.')
+  r=self.audit('--staged');self.assertNotEqual(r.returncode,0);self.assertIn('invalid note asset filename',r.stderr)
+ def test_missing_note_asset_blocked(self):
+  p=self.repo/'catalogue.json';d=json.loads(p.read_text());d['topics'][0]['note_assets']=['missing-photo.png'];p.write_text(json.dumps(d));self.git('add','.')
+  r=self.audit('--staged');self.assertNotEqual(r.returncode,0);self.assertIn('missing artwork/diagrams/missing-photo.png',r.stderr)
+ def test_embedded_photo_svg_still_blocked(self):
+  p=self.repo/'artwork/diagrams/split-shot.svg';p.write_text('<svg><image href="data:image/png;base64,AAAA"/></svg>');self.git('add','.')
+  r=self.audit('--staged');self.assertNotEqual(r.returncode,0);self.assertIn('external/embedded SVG content',r.stderr)
+ def test_malformed_native_bitmap_blocked(self):
+  p=self.repo/'artwork/diagrams/split-shot-lilygo.json';p.write_text(json.dumps(dict(w=140,h=76,pixels='00')));self.git('add','.')
+  r=self.audit('--staged');self.assertNotEqual(r.returncode,0);self.assertIn('invalid native bitmap pixels',r.stderr)
 if __name__=='__main__':unittest.main()

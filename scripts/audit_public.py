@@ -35,6 +35,25 @@ def audit(repo,tree):
  creatures={item['image'] for item in data['species']};diagrams={item['diagram'] for item in data['topics']}
  assets={'artwork/creatures/'+key+'.png' for key in creatures}
  assets|={'artwork/diagrams/'+key+ext for key in diagrams for ext in ['.png','.svg']}
+ # Detailed note assets are explicit filenames, never arbitrary paths or URLs.
+ note_assets=set()
+ for topic in data['topics']:
+  for name in topic.get('note_assets',[]):
+   if not isinstance(name,str) or not re.fullmatch(r'[a-z0-9-]+\.(?:png|svg)',name):
+    raise ValueError('invalid note asset filename')
+   note_assets.add('artwork/diagrams/'+name)
+ assets |= note_assets
+ for name in note_assets:
+  read(name)
+  if name.endswith('-lilygo.png'):
+   companion=name[:-4]+'.json'
+   if companion in entries:
+    bitmap=json.loads(read(companion))
+    if set(bitmap)!={'w','h','pixels'} or not isinstance(bitmap['w'],int) or not isinstance(bitmap['h'],int) or not (1<=bitmap['w']<=140 and 1<=bitmap['h']<=76):
+     raise ValueError('invalid native bitmap: '+companion)
+    if not isinstance(bitmap['pixels'],str) or not re.fullmatch('[0-9a-f]+',bitmap['pixels']) or len(bitmap['pixels'])!=((bitmap['w']+7)//8)*bitmap['h']*2:
+     raise ValueError('invalid native bitmap pixels: '+companion)
+    assets.add(companion)
  allowed=DOCS|CODE|assets|{'catalogue.json','artwork/sources.json'}
  for name in entries:
   if name not in allowed:raise ValueError('unrelated/unapproved path: '+name)

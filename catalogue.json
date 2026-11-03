@@ -76,9 +76,36 @@
       "bait": "Green weed or cabbage weed; artificial weed flies.",
       "where": "Weedy estuary walls, bridge pylons and rocky edges.",
       "when": "Year-round; try a moving tide with a controlled drift.",
-      "rig": "Stem float, split shot and size 6-8 sneck hook. Set bait depth near the weed and lift gently when float sinks.",
+      "rig": "Use a stem float (an upright bite indicator), split shot (small pinch-on weights) and a size 6 or 8 sneck hook. Size 8 is smaller than size 6. Adjust the float-to-hook distance so weed bait hangs near the fish\u2019s feeding depth. Take up loose line and lift the rod gently when a bite pulls the float under.",
       "id": "luderick",
-      "checked": "10 Oct 2026"
+      "checked": "10 Oct 2026",
+      "rig_links": [
+        {
+          "text": "stem float",
+          "topic": "Floats / bobbers",
+          "heading": "Stem floats and wagglers"
+        },
+        {
+          "text": "split shot",
+          "topic": "Sinker types",
+          "heading": "Split shot: small pinch-on weights"
+        },
+        {
+          "text": "sneck hook",
+          "topic": "Hooks & setting the hook",
+          "heading": "What is a sneck hook?"
+        },
+        {
+          "text": "Size 8 is smaller than size 6",
+          "topic": "Hooks & setting the hook",
+          "heading": "How hook sizes work"
+        },
+        {
+          "text": "float-to-hook distance",
+          "topic": "Float rig",
+          "heading": "Choose the depth and watch for a bite"
+        }
+      ]
     },
     {
       "name": "Mulloway",
@@ -448,7 +475,49 @@
       "rightTitle": "J / long-shank hook",
       "right": "The more open point suits worm baits. A long shank helps thread bait. Keep contact and lift smoothly to set it; match hook size to the bait.",
       "diagram": "hooks",
-      "caption": "Circle points turn inward; J hooks point up. Match the hook gape to your bait."
+      "caption": "Circle points turn inward; J hooks point up. Match the hook gape to your bait.",
+      "note_sections": [
+        {
+          "title": "Name the parts",
+          "text": "The eye is where you tie the line. The shank is the straight section below it; the bend curves around towards the sharp point. The gape is the gap between point and shank. Keep the point and that gap clear enough to catch in the fish\u2019s mouth."
+        },
+        {
+          "title": "Compare hook types",
+          "text": "Photographs show real tackle; separate monochrome schematics keep the shape visible at LilyGO size. Examples are not to scale.\n\n| Type | Real example | LilyGO \u00b7 140\u00d776 | What to notice | How to use it |\n| --- | --- | --- | --- | --- |\n| **Sneck** | <img src=\"https://cdn.shopify.com/s/files/1/0763/4141/2097/files/Sneck.jpg?v=1760364618\" width=\"140\" alt=\"Mustad Needle Sneck hook and packet\"> | ![[Hobbies/Fishing/Assets/sneck-hook-lilygo.png\\|140]] | A squarer bend and an exposed point; the pictured Mustad model has a long straight shank. | Small weed-bait hooks suit luderick; take up loose line and lift smoothly on a bite. |\n| **J hook / long shank** | ![[Hobbies/Fishing/Assets/j-hook-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/j-hook-lilygo.png\\|140]] | The bend resembles a J; long-shank versions extend the straight section. | Choose a shank that holds the bait neatly; leave the point clear and set with a smooth lift. |\n| **Circle hook** | ![[Hobbies/Fishing/Assets/circle-hook-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/circle-hook-lilygo.png\\|140]] | The point curves inward towards the shank. | Let the line tighten and wind steadily; do not make a sharp strike. |\n"
+        },
+        {
+          "title": "What is a sneck hook?",
+          "text": "Sneck names a traditional hook pattern: it describes the shape, not the size or a special knot. Small sneck hooks are commonly used with weed bait for luderick. They are ordinary single-point hooks, rather than circle hooks.\n\n\u201cSize 6\u20138 sneck hook\u201d means a sneck-pattern hook in that size range, such as size 6 or size 8. It does not mean 6\u20138 centimetres. Put a small amount of weed on the hook, leaving the point exposed."
+        },
+        {
+          "title": "How hook sizes work",
+          "text": "For common numbered sizes, a larger number means a smaller hook: **size 10 \u2192 8 \u2192 6 \u2192 4 \u2192 2 \u2192 1**, from smaller to larger. So size 8 is smaller than size 6 within the same pattern.\n\nAfter size 1, the scale changes to **1/0 \u2192 2/0 \u2192 3/0**, increasing in size. These are called \u201cone aught\u201d, \u201ctwo aught\u201d and so on. Size 6 and size 6/0 are very different; 6/0 is much larger.\n\nNumbers are size labels, not lengths in millimetres. Actual dimensions vary between hook patterns and manufacturers. Compare the hook itself, including the gape and wire thickness, and match it to the bait and fish\u2019s mouth."
+        },
+        {
+          "title": "Setting a sneck or J hook",
+          "text": "Setting the hook means making its point take hold in the fish\u2019s mouth. With a luderick float rig and sneck hook, take up slack and lift the rod smoothly when a bite pulls the float under. Avoid a hard yank that can tear the hook out.\n\nA long-shank hook has an extended straight section that can help hold a long bait such as a worm."
+        },
+        {
+          "title": "Circle hooks work differently",
+          "text": "A circle hook has a point that curves inward towards the shank. When a fish takes the bait, let the line tighten and wind steadily so the hook can turn into the corner of the mouth. Do not use the sharp lifting strike associated with a J hook. Keep the point and gape clear of bait."
+        },
+        {
+          "title": "Photo credits",
+          "text": "J-hook photo: [Riquix](https://commons.wikimedia.org/wiki/File:Angelhaken.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); a selected view is shown. Circle-hook photo: [Jens Kraglund / Luenibaer](https://commons.wikimedia.org/wiki/File:Circle-hook.jpg), public domain. Sneck product photograph: [Global Tackle / Mustad](https://globaltackle.com.au/products/mustad-sneck-hooks), loaded from the original website rather than copied into this catalogue; it requires an internet connection. The schematics are separate drawings."
+        }
+      ],
+      "source_urls": [
+        "https://www.dpi.nsw.gov.au/__data/assets/pdf_file/0012/600222/NSWDPIRD-Saltwater-Fishing-Guide-2024.pdf",
+        "https://www.dpi.nsw.gov.au/__data/assets/pdf_file/0016/1562101/18412-GoFishing_PortMacquarieWeb-2024.pdf",
+        "https://www.gamakatsu.com/wp-content/uploads/2020/01/Gamakatsu_2020_Catalog.pdf"
+      ],
+      "note_assets": [
+        "sneck-hook-lilygo.png",
+        "j-hook-photo.png",
+        "j-hook-lilygo.png",
+        "circle-hook-photo.png",
+        "circle-hook-lilygo.png"
+      ]
     },
     {
       "title": "Floats / bobbers",
@@ -457,7 +526,57 @@
       "rightTitle": "Bobby cork",
       "right": "A buoyant float for larger baits. A sliding float uses a stop to control depth. Float size must support the bait and weights without being pulled under.",
       "diagram": "floats",
-      "caption": "A float keeps bait at a chosen depth and shows bites. Weight it so the tip remains visible."
+      "caption": "A float keeps bait at a chosen depth and shows bites. Weight it so the tip remains visible.",
+      "note_sections": [
+        {
+          "title": "What is a float?",
+          "text": "A float, also called a bobber, is a buoyant bite indicator attached to fishing line. It supports the bait at a chosen depth and moves when something pulls the line. The visible tip is the part you watch."
+        },
+        {
+          "title": "Compare float types",
+          "text": "Photographs show real tackle; separate monochrome schematics keep the shape visible at LilyGO size. Examples are not to scale.\n\n| Type | Real example | LilyGO \u00b7 140\u00d776 | What to notice | How to use it |\n| --- | --- | --- | --- | --- |\n| **Stem / pencil float** | ![[Hobbies/Fishing/Assets/stem-float-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/stem-float-lilygo.png\\|140]] | Thin stem with a buoyant body; watch the tip. | Balance with small weights below it. A common style for luderick. |\n| **Waggler** | ![[Hobbies/Fishing/Assets/waggler-float-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/waggler-float-lilygo.png\\|140]] | Line attaches at the bottom end only; the photo shows a weighted model. | Fix it at the chosen depth or use a compatible sliding attachment. |\n| **Buoyant float / bobber** | ![[Hobbies/Fishing/Assets/buoyant-float-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/buoyant-float-lilygo.png\\|140]] | A broader body supports more weight. This photo shows a foam bobber, not a cork-bodied model. | Match buoyancy to bait and weights. Bobby corks serve a similar role; attachment varies by model. |\n"
+        },
+        {
+          "title": "Stem floats and wagglers",
+          "text": "A stem float has a slender stem and a buoyant body. Small weights below it help it stand upright. This makes gentle pulls easier to see. Stem or pencil-style floats are commonly used for luderick.\n\nA waggler is a float attached to the line at its bottom end. Attachment methods vary: use the sleeves, eye or adaptor intended for your float rather than assuming every float clips on the same way."
+        },
+        {
+          "title": "Fixed versus sliding floats",
+          "text": "A fixed float stays at the position you choose on the line. Moving it farther from the hook increases the bait depth.\n\nA sliding float lets line run through it until a float stop reaches it. The stop is a small knot or stopper set on the line to limit travel. This helps when fishing deeper than a fixed float is comfortable to cast. A bobby cork is a buoyant float often used with larger baits."
+        },
+        {
+          "title": "Balance it in the water",
+          "text": "Add small weights until the body is mostly underwater and the tip remains visible. The bait and weights must not pull the float under by themselves. A float lying flat may need more weight; one sinking continuously may have too much. Test with the bait attached."
+        },
+        {
+          "title": "Still water, rivers and tidal estuaries",
+          "text": "Floats are not just for lakes. Use them wherever keeping bait at a chosen depth and watching a bite indicator suits the fish and conditions.\n\nIn still water, present bait beside feeding areas such as weed beds, reeds, submerged timber or a drop-off. In moving water, let it drift along a current edge or past cover, and adjust depth so it does not continually drag on the bottom. Wind and waves can also move a float on a lake.\n\n**Structure** means physical features fish use for food or shelter: rocks, weeds, fallen trees, bridge pylons and changes in depth. Fish behaviour matters as much as the place. Luderick feed around weed-covered rocks and walls; a natural weed-bait drift can bring the bait to them. Other species may feed near the bottom, hunt beside cover or move through open water.\n\nChoose float buoyancy for bait, weights, current and visibility. A delicate float can show gentle bites in calm water; stronger current or rough water may require a more buoyant model. A bigger float is not automatically better.\n\nSee [[Hobbies/Fishing/Rigs/Swivels, snaps & leaders#Why line gets curly or tangled|line memory, twist and loose loops]] if the line coils or tangles during a drift."
+        },
+        {
+          "title": "Where fish sit around structure",
+          "text": "## Still water: edges, shade and cover\n\n![[Hobbies/Fishing/Assets/fish-structure-still-water.svg|600]]\n\nLook beside weed edges, fallen timber and the boundary between shallow and deeper water. Cover offers shelter and food; a nearby depth change gives fish access to another depth. Present bait beside the cover rather than casting straight into branches or thick weed.\n\n## Moving water: current breaks and feeding lanes\n\n![[Hobbies/Fishing/Assets/fish-structure-moving-water.svg|600]]\n\nA rock, pylon or bank feature can slow the water behind it. Fish may hold in that slower pocket, often facing into the flow, and feed near the **current seam**: the boundary between faster and slower water. Let a float drift along that boundary with the bait at feeding depth.\n\nThe diagrams show common places to look, not a rule for every species. Luderick also graze weed-covered rocks and walls; their feeding depth may differ from the fish shown. In tidal water, observe the actual flow: the sheltered side can change when the current reverses."
+        },
+        {
+          "title": "Photo credits",
+          "text": "Stem and buoyant float photos: [Geotek](https://commons.wikimedia.org/wiki/File:Freshwater_fishing_floats.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Waggler photo: [Ji\u0159\u00ed Zelenka / Pohled 111](https://commons.wikimedia.org/wiki/File:Angli\u010d\u00e1k_01.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Selected views are shown; the schematics are separate drawings."
+        }
+      ],
+      "source_urls": [
+        "https://www.dpi.nsw.gov.au/__data/assets/pdf_file/0012/600222/NSWDPIRD-Saltwater-Fishing-Guide-2024.pdf",
+        "https://tpwd.texas.gov/education/resources/aquatic-science/tas/chapters/chapter-13/",
+        "https://www.takemefishing.org/freshwater-fishing/types-of-freshwater-fishing/lakes-and-ponds/",
+        "https://eyesonthebay.dnr.maryland.gov/eyesonthebay/Step7_MovingWater.cfm"
+      ],
+      "note_assets": [
+        "stem-float-photo.png",
+        "stem-float-lilygo.png",
+        "waggler-float-photo.png",
+        "waggler-float-lilygo.png",
+        "buoyant-float-photo.png",
+        "buoyant-float-lilygo.png",
+        "fish-structure-still-water.svg",
+        "fish-structure-moving-water.svg"
+      ]
     },
     {
       "title": "Sinker types",
@@ -466,7 +585,56 @@
       "rightTitle": "Bomb / drop",
       "right": "An end attachment suits a paternoster. Use the lightest weight that reaches and holds the feeding zone; increase it when current carries bait away.",
       "diagram": "sinkers",
-      "caption": "Sliding weights, clip-on shot and end weights do different jobs. Use only the weight you need."
+      "caption": "Sliding weights, clip-on shot and end weights do different jobs. Use only the weight you need.",
+      "note_sections": [
+        {
+          "title": "What is a sinker?",
+          "text": "A sinker is a weight attached to fishing line. It helps bait sink, holds it against current, or balances a float. Use only enough weight to do the job."
+        },
+        {
+          "title": "Compare sinker types",
+          "text": "Photographs show real tackle; the monochrome drawings keep the main shape and attachment visible at LilyGO size. Examples are not to scale. Bomb and drop names overlap between manufacturers.\n\n| Type | Real example | LilyGO \u00b7 140\u00d776 | How it attaches | What it does |\n| --- | --- | --- | --- | --- |\n| **Split shot** | ![[Hobbies/Fishing/Assets/split-shot-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/split-shot-lilygo.png\\|140]] | Pinches onto the line through a slit; the line does not run through a hole. | Small adjustments to float balance; helps bait sink. |\n| **Ball** | ![[Hobbies/Fishing/Assets/ball-sinker-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/ball-sinker-lilygo.png\\|140]] | Line passes through a central hole in the round weight. | A sliding weight in a running-sinker rig. |\n| **Bean** | ![[Hobbies/Fishing/Assets/bean-sinker-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/bean-sinker-lilygo.png\\|140]] | Line passes through a central hole in the oval weight. | A sliding weight with a flatter profile than a ball. |\n| **Bomb** | ![[Hobbies/Fishing/Assets/bomb-sinker-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/bomb-sinker-lilygo.png\\|140]] | Tie or clip to the eye at the top of the weight. | A weight at the bottom of a paternoster rig. |\n| **Drop** | ![[Hobbies/Fishing/Assets/drop-sinker-photo.png\\|140]] | ![[Hobbies/Fishing/Assets/drop-sinker-lilygo.png\\|140]] | Attach at the top eye; shapes and clips vary by model. | An end weight; choose the attachment to suit your rig. |\n"
+        },
+        {
+          "title": "Split shot: small pinch-on weights",
+          "text": "Split shot are tiny round or oval weights with a slit. Put the line into the slit and close it gently with the appropriate tool. Do not use your teeth. Excessive squeezing can damage the line.\n\nFor a float rig, place shot below the float and above the hook. Add or remove a little at a time until the float stands upright with its tip visible. The weights help the bait sink; they do not sit on the hook."
+        },
+        {
+          "title": "Photo credits",
+          "text": "Split shot: [Mx. Granger](https://commons.wikimedia.org/wiki/File:Split_shot_3.jpg). Other examples: [Ruff tuff cream puff](https://commons.wikimedia.org/wiki/File:Fishing_weights_smaller_sizes.jpg). Both photographs are [CC0](https://creativecommons.org/publicdomain/zero/1.0/); selected views are shown. The split shot photo is a removable model with extra tabs. The LilyGO drawings are separate schematics."
+        },
+        {
+          "title": "Where to put split shot",
+          "text": "Split shot is pinched onto the fishing line, not tied on. Put the line into the slit and close it gently so the weight stays in place. Some removable models have tabs for opening them again. If a shot slides freely, it is not gripping properly; reposition or replace it rather than crushing the line.\n\nPlace it **below the float and above the hook**. For a luderick rig, keep the lowest shot about **20 cm or more above the hook** as a starting arrangement, then adjust for the bait, float and current. This is not a fixed distance for every rig.\n\n![[Hobbies/Fishing/Assets/split-shot-placement.svg|600]]"
+        },
+        {
+          "title": "Bait distance, slack and bite contact",
+          "text": "The bait goes **on the hook** in this weed-bait rig. There is no separate hook-to-bait length. The adjustable gap is between the lowest shot and the baited hook.\n\nA longer gap gives the bait more freedom to drift and sink slowly. Too long a gap can let the bait wander, lift in current or move before the float clearly registers a bite. A shorter gap brings the weight closer, making the bait more controlled but less free-moving. Neither arrangement disconnects the line from the rod.\n\n**Slack** means loose or bowed line, not a loose knot. It can appear without retying: current, wind, a drifting float or a fish swimming towards you can change the distance between the ends. A pull must first take up loose line before it reaches the rod clearly.\n\n![[Hobbies/Fishing/Assets/float-line-slack.svg|600]]\n\nWatch the float for bites. Gently reel in excess line between the rod tip and float, stopping before you drag it or pull the bait out of its natural drift. Below the float, the weights help the bait sink and the line hang down; current can still bend it. You do not need to stretch the whole rig tight while waiting for a bite."
+        }
+      ],
+      "source_urls": [
+        "https://www.dpi.nsw.gov.au/__data/assets/pdf_file/0012/600222/NSWDPIRD-Saltwater-Fishing-Guide-2024.pdf",
+        "https://www.tackletactics.com.au/blogs/learn-to-fish/float-fishing-for-luderick-rig"
+      ],
+      "note_assets": [
+        "split-shot.svg",
+        "ball-sinker.svg",
+        "bean-sinker.svg",
+        "bomb-sinker.svg",
+        "drop-sinker.svg",
+        "split-shot-photo.png",
+        "split-shot-lilygo.png",
+        "ball-sinker-photo.png",
+        "ball-sinker-lilygo.png",
+        "bean-sinker-photo.png",
+        "bean-sinker-lilygo.png",
+        "bomb-sinker-photo.png",
+        "bomb-sinker-lilygo.png",
+        "drop-sinker-photo.png",
+        "drop-sinker-lilygo.png",
+        "split-shot-placement.svg",
+        "float-line-slack.svg"
+      ]
     },
     {
       "title": "Swivels, snaps & leaders",
@@ -475,7 +643,42 @@
       "rightTitle": "Leader",
       "right": "The section nearest the hook. Choose strength for fish and structure; inspect for abrasion. A swivel can stop a sliding sinker before it reaches the leader.",
       "diagram": "swivels",
-      "caption": "Main line connects to one end of the swivel; the leader connects to the other."
+      "caption": "Main line connects to one end of the swivel; the leader connects to the other.",
+      "note_sections": [
+        {
+          "title": "Swivels & snaps",
+          "text": "A barrel swivel joins line sections and helps reduce twist. A snap is a clip for quick tackle changes; check it closes properly and matches the tackle strength."
+        },
+        {
+          "title": "Leader",
+          "text": "The section nearest the hook. Choose strength for fish and structure; inspect for abrasion. A swivel can stop a sliding sinker before it reaches the leader."
+        },
+        {
+          "title": "Why line gets curly or tangled",
+          "text": "A line can hang loose without being damaged. Persistent coils or loops twisting around themselves point to different problems. These drawings show the difference; they are not photographs.\n\n| Problem | Small visual | What it looks like | Common causes |\n| --- | --- | --- | --- |\n| **Line memory** | ![[Hobbies/Fishing/Assets/line-memory.svg\\|140]] | One strand keeps spring-like coils even when it is taken off the reel. | Nylon or fluorocarbon takes the curved shape of its spool; stiffness and long storage can make it more noticeable. |\n| **Line twist** | ![[Hobbies/Fishing/Assets/line-twist.svg\\|140]] | A loose section spins, doubles back or wraps around itself. | A rotating bait or lure, winding against slipping drag, or twist introduced while spooling. |\n| **Ordinary slack / loose winding** | ![[Hobbies/Fishing/Assets/loose-line.svg\\|140]] | The line hangs in a bow; loose loops may sit on the reel. | More line is out than the distance requires, or it was retrieved with too little tension. An overfilled spool can shed loops. |\n\nMemory and twist can occur together. A sketch or description alone cannot confirm which is affecting a particular reel."
+        },
+        {
+          "title": "Why cutting off a section can help",
+          "text": "Removing an outer section may remove concentrated twist, kinks or abrasion. It also reduces the amount on the spool, which can improve an overfilled reel. The line underneath was already there; it is not necessarily newer or free of memory.\n\nCutting is not the first fix for ordinary slack. Take up loose line first. Replace visibly damaged or repeatedly troublesome line; do not keep cutting until the reel is too empty to cast properly."
+        },
+        {
+          "title": "Prevent memory and twist on a spinning reel",
+          "text": "1. **Match line to the reel.** Thick, stiff line is harder to manage on a small spinning reel. Use the line size and fill guidance for your reel; a supple line suited to it is easier to cast.\n2. **Spool evenly under light tension.** Follow the reel and line maker\u2019s loading method. Check for twist as you go and do not fill above the reel\u2019s fill mark. A tackle shop can load replacement line.\n3. **Close the bail by hand after casting.** The bail is the curved metal arm around the spool. Check that the line is seated on its roller and take up excess slack before retrieving.\n4. **Fix loose loops before the next cast.** Stop, open the bail and carefully pull out line until the trapped loop is clear, then wind it back evenly with gentle tension. Do not cast the loop or yank a tightened knot through the guides.\n5. **Check for unwanted spinning.** Straighten a bait or lure that rotates when it should not. A suitable swivel can reduce rotation passed to the line, but it does not remove line memory or fix loose winding.\n6. **Let the drag work.** If the fish is pulling line off a spinning reel, avoid winding continuously against the slipping drag. Recover line when the fish eases.\n7. **Check the used section.** Look and feel for roughness, flattened spots or kinks after a snag. Remove damaged line and retie; replace the line if the problem persists.\n\nWith a float rig, maintain contact without dragging the float: gently recover extra line between rod and float, while letting the bait drift. See [[Hobbies/Fishing/Rigs/Float rig#Bait distance, slack and bite contact|slack and bite contact]]."
+        }
+      ],
+      "note_assets": [
+        "line-memory.svg",
+        "line-memory-lilygo.png",
+        "line-twist.svg",
+        "line-twist-lilygo.png",
+        "loose-line.svg",
+        "loose-line-lilygo.png"
+      ],
+      "source_urls": [
+        "https://www.berkley-fishing.com/blogs/news/berkley-freshwater-line-guide",
+        "https://www.berkley-fishing.com/blogs/news/spooling-a-spinning-reel",
+        "https://lews.zendesk.com/hc/en-us/articles/4411535422359-Line-Wrapping-on-Spinning-Reel"
+      ]
     },
     {
       "title": "Running sinker rig",
@@ -493,7 +696,37 @@
       "rightTitle": "Depth & drift",
       "right": "Set the hook depth near the weed or structure fish feed around. Drift bait naturally; adjust depth if it drags or stays above the feeding zone.",
       "diagram": "float-rig",
-      "caption": "Float above, split shot below, hook at feeding depth. Change the float position to set depth."
+      "caption": "Float above, split shot below, hook at feeding depth. Change the float position to set depth.",
+      "note_sections": [
+        {
+          "title": "What the pieces do",
+          "text": "A rig is the arrangement of tackle on your line. In a float rig, the float stays at the surface, small weights sink the bait, and the hook holds it below the water.\n\nFrom rod towards bait: **line \u2192 float \u2192 split-shot weights \u2192 hook with bait**. This is the order along the line, not a drawing to scale."
+        },
+        {
+          "title": "Set up a fixed float",
+          "text": "1. Attach the float using its line guide and retaining sleeve; follow the instructions for that model.\n2. Tie the hook to the end of the line and pinch split shot onto the line below the float. Split shot are small weights with a slit. Keep them above the hook so the bait can move.\n3. Test it in the water. Add small amounts of weight until the float stands upright with its tip visible. If it sinks without a bite, remove weight.\n4. Put the bait on the hook, leaving the point exposed."
+        },
+        {
+          "title": "Choose the depth and watch for a bite",
+          "text": "The distance from float to hook sets the approximate bait depth. For example, a hook 1 metre below the float hangs roughly 1 metre underwater when the line is vertical. Current can lift it or pull the line sideways.\n\nMove the fixed float farther from the hook to fish deeper, or closer to fish shallower. Start near the depth of the weed-covered rocks where luderick feed, keeping the hook clear of snags.\n\nLet the bait travel with the current; this is a drift. Take up loose line without dragging the float. For a luderick sneck hook, gently raise the rod when the float goes under from a bite. A snag or wave can also pull it down. Circle hooks need a different response: wind steadily rather than striking."
+        },
+        {
+          "title": "Where to put split shot",
+          "text": "Split shot is pinched onto the fishing line, not tied on. Put the line into the slit and close it gently so the weight stays in place. Some removable models have tabs for opening them again. If a shot slides freely, it is not gripping properly; reposition or replace it rather than crushing the line.\n\nPlace it **below the float and above the hook**. For a luderick rig, keep the lowest shot about **20 cm or more above the hook** as a starting arrangement, then adjust for the bait, float and current. This is not a fixed distance for every rig.\n\n![[Hobbies/Fishing/Assets/split-shot-placement.svg|600]]"
+        },
+        {
+          "title": "Bait distance, slack and bite contact",
+          "text": "The bait goes **on the hook** in this weed-bait rig. There is no separate hook-to-bait length. The adjustable gap is between the lowest shot and the baited hook.\n\nA longer gap gives the bait more freedom to drift and sink slowly. Too long a gap can let the bait wander, lift in current or move before the float clearly registers a bite. A shorter gap brings the weight closer, making the bait more controlled but less free-moving. Neither arrangement disconnects the line from the rod.\n\n**Slack** means loose or bowed line, not a loose knot. It can appear without retying: current, wind, a drifting float or a fish swimming towards you can change the distance between the ends. A pull must first take up loose line before it reaches the rod clearly.\n\n![[Hobbies/Fishing/Assets/float-line-slack.svg|600]]\n\nWatch the float for bites. Gently reel in excess line between the rod tip and float, stopping before you drag it or pull the bait out of its natural drift. Below the float, the weights help the bait sink and the line hang down; current can still bend it. You do not need to stretch the whole rig tight while waiting for a bite."
+        }
+      ],
+      "source_urls": [
+        "https://www.dpi.nsw.gov.au/__data/assets/pdf_file/0012/600222/NSWDPIRD-Saltwater-Fishing-Guide-2024.pdf",
+        "https://www.tackletactics.com.au/blogs/learn-to-fish/float-fishing-for-luderick-rig"
+      ],
+      "note_assets": [
+        "split-shot-placement.svg",
+        "float-line-slack.svg"
+      ]
     },
     {
       "title": "Paternoster rig",

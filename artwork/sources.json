@@ -277,5 +277,324 @@
     "kind": "code-authored schematic",
     "license": "CC-BY-4.0",
     "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "split-shot": {
+    "file": "artwork/diagrams/split-shot.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original schematic diagram",
+    "subject": "split shot attachment schematic; not to scale",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "ball-sinker": {
+    "file": "artwork/diagrams/ball-sinker.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original schematic diagram",
+    "subject": "ball sinker attachment schematic; not to scale",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "bean-sinker": {
+    "file": "artwork/diagrams/bean-sinker.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original schematic diagram",
+    "subject": "bean sinker attachment schematic; not to scale",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "bomb-sinker": {
+    "file": "artwork/diagrams/bomb-sinker.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original schematic diagram",
+    "subject": "bomb sinker attachment schematic; not to scale",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "drop-sinker": {
+    "file": "artwork/diagrams/drop-sinker.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original schematic diagram",
+    "subject": "drop sinker attachment schematic; not to scale",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "split-shot-photo": {
+    "file": "artwork/diagrams/split-shot-photo.png",
+    "creator": "Mx. Granger",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Split_shot_3.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Mx. Granger / Wikimedia Commons (CC0)"
+  },
+  "split-shot-lilygo": {
+    "file": "artwork/diagrams/split-shot-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/split-shot-lilygo.json"
+  },
+  "ball-sinker-photo": {
+    "file": "artwork/diagrams/ball-sinker-photo.png",
+    "creator": "Ruff tuff cream puff",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishing_weights_smaller_sizes.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Ruff tuff cream puff / Wikimedia Commons (CC0)"
+  },
+  "ball-sinker-lilygo": {
+    "file": "artwork/diagrams/ball-sinker-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/ball-sinker-lilygo.json"
+  },
+  "bean-sinker-photo": {
+    "file": "artwork/diagrams/bean-sinker-photo.png",
+    "creator": "Ruff tuff cream puff",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishing_weights_smaller_sizes.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Ruff tuff cream puff / Wikimedia Commons (CC0)"
+  },
+  "bean-sinker-lilygo": {
+    "file": "artwork/diagrams/bean-sinker-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/bean-sinker-lilygo.json"
+  },
+  "bomb-sinker-photo": {
+    "file": "artwork/diagrams/bomb-sinker-photo.png",
+    "creator": "Ruff tuff cream puff",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishing_weights_smaller_sizes.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Ruff tuff cream puff / Wikimedia Commons (CC0)"
+  },
+  "bomb-sinker-lilygo": {
+    "file": "artwork/diagrams/bomb-sinker-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/bomb-sinker-lilygo.json"
+  },
+  "drop-sinker-photo": {
+    "file": "artwork/diagrams/drop-sinker-photo.png",
+    "creator": "Ruff tuff cream puff",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Fishing_weights_smaller_sizes.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Ruff tuff cream puff / Wikimedia Commons (CC0)"
+  },
+  "drop-sinker-lilygo": {
+    "file": "artwork/diagrams/drop-sinker-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/drop-sinker-lilygo.json"
+  },
+  "stem-float-photo": {
+    "file": "artwork/diagrams/stem-float-photo.png",
+    "creator": "Geotek",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Freshwater_fishing_floats.jpg",
+    "license": "CC-BY-SA-3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Geotek / Wikimedia Commons"
+  },
+  "waggler-float-photo": {
+    "file": "artwork/diagrams/waggler-float-photo.png",
+    "creator": "Ji\u0159\u00ed Zelenka / Pohled 111",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Angli\u010d\u00e1k_01.jpg",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Ji\u0159\u00ed Zelenka / Pohled 111 / Wikimedia Commons"
+  },
+  "buoyant-float-photo": {
+    "file": "artwork/diagrams/buoyant-float-photo.png",
+    "creator": "Geotek",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Freshwater_fishing_floats.jpg",
+    "license": "CC-BY-SA-3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Geotek / Wikimedia Commons"
+  },
+  "j-hook-photo": {
+    "file": "artwork/diagrams/j-hook-photo.png",
+    "creator": "Riquix",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Angelhaken.jpg",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Riquix / Wikimedia Commons"
+  },
+  "circle-hook-photo": {
+    "file": "artwork/diagrams/circle-hook-photo.png",
+    "creator": "Jens Kraglund / Luenibaer",
+    "kind": "photograph, selected view rasterized to PNG",
+    "source": "https://commons.wikimedia.org/wiki/File:Circle-hook.jpg",
+    "license": "Public domain",
+    "license_url": "https://commons.wikimedia.org/wiki/File:Circle-hook.jpg",
+    "changes": "Selected source-photo viewport rendered to PNG; composition unchanged",
+    "credit": "Jens Kraglund / Luenibaer / Wikimedia Commons"
+  },
+  "stem-float-lilygo": {
+    "file": "artwork/diagrams/stem-float-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/stem-float-lilygo.json"
+  },
+  "waggler-float-lilygo": {
+    "file": "artwork/diagrams/waggler-float-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/waggler-float-lilygo.json"
+  },
+  "buoyant-float-lilygo": {
+    "file": "artwork/diagrams/buoyant-float-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/buoyant-float-lilygo.json"
+  },
+  "j-hook-lilygo": {
+    "file": "artwork/diagrams/j-hook-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/j-hook-lilygo.json"
+  },
+  "circle-hook-lilygo": {
+    "file": "artwork/diagrams/circle-hook-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/circle-hook-lilygo.json"
+  },
+  "sneck-hook-lilygo": {
+    "file": "artwork/diagrams/sneck-hook-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original monochrome schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "dimensions": "140x76",
+    "native_data": "artwork/diagrams/sneck-hook-lilygo.json"
+  },
+  "split-shot-placement": {
+    "file": "artwork/diagrams/split-shot-placement.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original labelled rig schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "float-line-slack": {
+    "file": "artwork/diagrams/float-line-slack.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original labelled rig schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "line-memory.svg": {
+    "file": "artwork/diagrams/line-memory.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original line-behaviour schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "line-memory-lilygo.png": {
+    "file": "artwork/diagrams/line-memory-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original line-behaviour schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "line-twist.svg": {
+    "file": "artwork/diagrams/line-twist.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original line-behaviour schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "line-twist-lilygo.png": {
+    "file": "artwork/diagrams/line-twist-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original line-behaviour schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "loose-line.svg": {
+    "file": "artwork/diagrams/loose-line.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original line-behaviour schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "loose-line-lilygo.png": {
+    "file": "artwork/diagrams/loose-line-lilygo.png",
+    "creator": "OpenAI Codex",
+    "kind": "original line-behaviour schematic",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
+  },
+  "fish-structure-still-water": {
+    "file": "artwork/diagrams/fish-structure-still-water.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original educational schematic; top view, not to scale",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "references": [
+      "https://tpwd.texas.gov/education/resources/aquatic-science/tas/chapters/chapter-13/",
+      "https://www.takemefishing.org/freshwater-fishing/types-of-freshwater-fishing/lakes-and-ponds/",
+      "https://eyesonthebay.dnr.maryland.gov/eyesonthebay/Step7_MovingWater.cfm"
+    ]
+  },
+  "fish-structure-moving-water": {
+    "file": "artwork/diagrams/fish-structure-moving-water.svg",
+    "creator": "OpenAI Codex",
+    "kind": "original educational schematic; top view, not to scale",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou",
+    "references": [
+      "https://tpwd.texas.gov/education/resources/aquatic-science/tas/chapters/chapter-13/",
+      "https://www.takemefishing.org/freshwater-fishing/types-of-freshwater-fishing/lakes-and-ponds/",
+      "https://eyesonthebay.dnr.maryland.gov/eyesonthebay/Step7_MovingWater.cfm"
+    ]
   }
 }

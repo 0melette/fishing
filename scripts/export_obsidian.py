@@ -55,12 +55,35 @@ for f in data['species']:
         dest.parent.mkdir(parents=True,exist_ok=True)
         shutil.copy2(art,dest)
         picture = '![[Hobbies/Fishing/Assets/'+art.name+'|320]]\n\n'
-    body = picture+f"**Identify:** {f['identify']}\n\n## Fishing notes\n\n**Bait:** {f['bait']}\n\n**Where:** {f['where']}\n\n**When:** {f['when']}\n\n**Rig:** {f['rig']}\n\n## Rules · {checked}\n\n| Length | Daily bag | Possession |\n| --- | --- | --- |\n| {f['length']} | {f['daily']} | {f['possession']} |\n\n**Conditions:** {f['conditions']}\n\n[Official rules]({source}). Check current rules and local closures before fishing."
+    rig = f['rig']
+    topics = {t['title']: t for t in data['topics']}
+    for link in f.get('rig_links', []):
+        topic = topics[link['topic']]
+        assert link['heading'] in [section['title'] for section in topic.get('note_sections', [])], 'Unknown tackle heading'
+        assert link['text'] in rig, 'Missing rig link text'
+        target = 'Hobbies/Fishing/Rigs/'+safe(link['topic'])+'#'+link['heading']
+        rig = rig.replace(link['text'], '[['+target+'|'+link['text']+']]', 1)
+    body = picture+f"**Identify:** {f['identify']}\n\n## Fishing notes\n\n**Bait:** {f['bait']}\n\n**Where:** {f['where']}\n\n**When:** {f['when']}\n\n**Rig:** {rig}\n\n## Rules · {checked}\n\n| Length | Daily bag | Possession |\n| --- | --- | --- |\n| {f['length']} | {f['daily']} | {f['possession']} |\n\n**Conditions:** {f['conditions']}\n\n[Official rules]({source}). Check current rules and local closures before fishing."
     if f.get('source_urls'):
         body+='\n\n'+' · '.join('[Source '+str(i+1)+']('+url+')' for i,url in enumerate(f['source_urls']))
+    if f.get('related_topics'):
+        titles = {t['title'] for t in data['topics']}
+        assert all(title in titles for title in f['related_topics']), 'Unknown related topic'
+        body += '\n\n## Understand the tackle\n\nSee ' + ', '.join('[[Hobbies/Fishing/Rigs/'+safe(title)+'|'+title+']]' for title in f['related_topics']) + '.'
     write('Species', f['name'], body, checked)
 for t in data['topics']:
-    write('Rigs', t['title'], f"{t['caption']}\n\n## {t['leftTitle']}\n\n{t['left']}\n\n## {t['rightTitle']}\n\n{t['right']}", data['checked'])
+    for name in t.get('note_assets', []):
+        assert Path(name).name == name, 'Expected asset filename'
+        dest = root/'Assets'/name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(a.source.resolve().parent/'artwork/diagrams'/name, dest)
+    if t.get('note_sections'):
+        body = '\n\n'.join('## '+section['title']+'\n\n'+section['text'] for section in t['note_sections'])
+    else:
+        body = f"{t['caption']}\n\n## {t['leftTitle']}\n\n{t['left']}\n\n## {t['rightTitle']}\n\n{t['right']}"
+    if t.get('source_urls'):
+        body += '\n\n## References\n\n' + '\n'.join('- [Reference '+str(i+1)+']('+url+')' for i,url in enumerate(t['source_urls']))
+    write('Rigs', t['title'], body, data['checked'])
 (root/'Data').mkdir(parents=True,exist_ok=True)
 (root/'Data/mooncake-fishing.json').write_text(json.dumps({'provenance': {'imported_from': str(a.source), 'sha256': hashlib.sha256(raw.encode()).hexdigest(), 'rules_checked': data['checked'], 'direction': 'Reviewed catalogue to Obsidian; per-entry dates retained; no device upload'}, 'guide': data}, indent=2)+'\n')
 print(f"Imported {len(data['species'])} species and {len(data['topics'])} tackle topics; per-entry rule dates retained")
