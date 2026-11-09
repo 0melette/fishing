@@ -465,6 +465,26 @@
         "https://www.dpird.nsw.gov.au/fishing/recreational/fishing-rules-and-regs/perm-prohib-freshwater",
         "https://www.dpird.nsw.gov.au/dpi/fishing/aquaculture/resources/publications/species2/freshwater/yabbies"
       ]
+    },
+    {
+      "id": "flounder",
+      "name": "Flounder",
+      "image": "flounder",
+      "source": 0,
+      "checked": "9 Nov 2026",
+      "length": "25 cm minimum",
+      "daily": "20 combined",
+      "possession": "20 combined",
+      "conditions": "Daily bag and possession both include sole. Sole has no listed minimum. Check local closures.",
+      "identify": "Flat oval body, both eyes on the upper side, and a pale underside. Illustration shows largetooth flounder.",
+      "bait": "Try a small piece of prawn or marine worm.",
+      "where": "Sandy or silty bottoms in bays and estuaries.",
+      "when": "Try when the current is slow enough to keep the bait near the bottom.",
+      "rig": "Light running sinker and a small hook. Fish the bait close to the bottom.",
+      "source_urls": [
+        "https://australian.museum/learn/animals/fishes/largetooth-flounder-pseudorhombus-arsius/"
+      ],
+      "preserve_handwritten_note": true
     }
   ],
   "topics": [

@@ -596,5 +596,13 @@
       "https://www.takemefishing.org/freshwater-fishing/types-of-freshwater-fishing/lakes-and-ponds/",
       "https://eyesonthebay.dnr.maryland.gov/eyesonthebay/Step7_MovingWater.cfm"
     ]
+  },
+  "flounder": {
+    "file": "artwork/creatures/flounder.png",
+    "creator": "OpenAI imagegen",
+    "kind": "generated illustration",
+    "subject": "Largetooth flounder",
+    "license": "CC-BY-4.0 to the extent the contributor holds rights",
+    "credit": "Fishing catalogue by Amy Zhou"
   }
 }
