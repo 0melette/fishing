@@ -1,6 +1,6 @@
 # Fishing
 
-A shared fishing catalogue: **27 species, nine tackle topics and 36 illustrations**. It holds reference facts, artwork, source links and tools that turn them into app data or Obsidian notes. Freshwater yabby is included.
+A shared fishing catalogue: **28 species, nine tackle topics and 37 illustrations**. It holds reference facts, artwork, source links and tools that turn them into app data or Obsidian notes. Freshwater yabby is included.
 
 It does **not** hold personal catches, private fishing locations, vault notes, credentials or device backups. Those stay in their private stores.
 
